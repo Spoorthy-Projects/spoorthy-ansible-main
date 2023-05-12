@@ -14,7 +14,8 @@
 
   - name: Download python Content & Extract it
     ansible.builtin.unarchive:
-      src: "https://github.com/prasanthbangs2016/spoorthy-python/archive/main.zip"
+      #src: "https://github.com/prasanthbangs2016/spoorthy-python/archive/main.zip"
+      src:  "https://github.com/Spoorthy-Projects/spoorthy-python-main/blob/main/spoorthy-python-main.zip"
       dest: /tmp
       remote_src: yes
 
